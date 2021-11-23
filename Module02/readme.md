@@ -29,4 +29,9 @@
 
 ![Physical model](https://github.com/Kozub420/DE-101/blob/main/Module02/Physical%20model.JPG)
  
+ ## Практика
+ - [DDL - создание таблиц](https://github.com/Kozub420/DE-101/blob/main/Module02/ddl_final.sql)
+ - [Insert - наполнение таблиц](https://github.com/Kozub420/DE-101/blob/main/Module02/insert_final.sql)
  
+  ## 2.5: База данных в облаке
+  
