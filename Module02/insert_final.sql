@@ -2,19 +2,19 @@
 
 insert into practic.customer_dim(customer_id,customer_name,segment)
 select o.customer_id,
-		o.customer_name,
-		o.segment
+	o.customer_name,
+	o.segment
 from public.orders o
 group by o.customer_id,
-		o.customer_name,
-		o.segment
+	o.customer_name,
+	o.segment
 order by  o.customer_id,
-		o.customer_name;
+	o.customer_name;
 	
 	
 -- checking customer_dim
 select *,
-		count(*) over() as num
+	count(*) over() as num
 from practic.customer_dim;
 
 -- update orders 05401
@@ -27,24 +27,24 @@ where postal_code is null;
 
 insert into practic.geography_dim(country,city,state,region,postal_code,full_name_manager)
 select distinct o.country,
-				o.city,
-				o.state,
-				o.region,
-				o.postal_code,
-				p.person
-from public.orders o
-join public.people p 
-	on o.region = p.region 
-group by o.country,
 		o.city,
 		o.state,
 		o.region,
 		o.postal_code,
-		p.person;
+		p.person
+from public.orders o
+join public.people p 
+	on o.region = p.region 
+group by o.country,
+	o.city,
+	o.state,
+	o.region,
+	o.postal_code,
+	p.person;
 
 -- checking geography_dim
 select *,
-		count(*) over() as num
+	count(*) over() as num
 from practic.geography_dim;
 
 
@@ -52,19 +52,19 @@ from practic.geography_dim;
 
 insert into practic.product_dim(category, subcategory, product_name, product_id)
 select  o.category,
-		o.subcategory,
-		o.product_name,
-		o.product_id
+	o.subcategory,
+	o.product_name,
+	o.product_id
 from public.orders o
 group by o.category,
-			o.subcategory,
-			o.product_name,
-			o.product_id;
+	o.subcategory,
+	o.product_name,
+	o.product_id;
 
 
 -- checking product_dim
 select *,
-		count(*) over() as num
+	count(*) over() as num
 from practic.product_dim;
 
 -- insert practic.shipping_dim
@@ -76,7 +76,7 @@ group by o.ship_mode;
 
 -- checking shipping_dim
 select *,
-		count(*) over() as num
+	count(*) over() as num
 from practic.shipping_dim;
 
 -- insert calendar_dim
@@ -112,29 +112,29 @@ from practic.calendar_dim;
 -- insert practic.sales_fact
 
 insert into practic.sales_fact(order_id,
-								sales,
-								quantity,
-								discount,
-								profit,
-								returned,
-								geo_dim_id,
-								customer_dim_id,
-								ship_dim_id,
-								product_dim_id,
-								ship_date_id,
-								order_date_id)
+				sales,
+				quantity,
+				discount,
+				profit,
+				returned,
+				geo_dim_id,
+				customer_dim_id,
+				ship_dim_id,
+				product_dim_id,
+				ship_date_id,
+				order_date_id)
 select distinct o.order_id,
-				o.sales,
-				o.quantity,
-				o.discount,
-				o.profit,
-				r.returned,
-				gd.geo_dim_id,
-				cd.customer_dim_id,
-				sd.ship_dim_id,
-				pd.product_dim_id,
-				to_char(o.ship_date, 'yyyymmdd')::int as ship_date_id,
-				to_char(o.order_date, 'yyyymmdd')::int as order_date_id
+		o.sales,
+		o.quantity,
+		o.discount,
+		o.profit,
+		r.returned,
+		gd.geo_dim_id,
+		cd.customer_dim_id,
+		sd.ship_dim_id,
+		pd.product_dim_id,
+		to_char(o.ship_date, 'yyyymmdd')::int as ship_date_id,
+		to_char(o.order_date, 'yyyymmdd')::int as order_date_id
 from orders o
 -- join to "returns" 
 left join "returns" r 
