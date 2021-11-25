@@ -44,4 +44,4 @@
   - [Сырые данные. Таблица returns](https://github.com/Kozub420/DE-101/blob/main/Module02/2_5_stg.returns.sql)
   - [Сырые данные. Таблица people](https://github.com/Kozub420/DE-101/blob/main/Module02/2_5_stg.people.sql)
 
-  ## 2.6 
+  ## 2.6: Как донести данные до бизнес-пользователя 
