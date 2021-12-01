@@ -19,7 +19,7 @@
  ## 2.4: Модели Данных
  - Conceptual model
  
- ![Conceptual model]
+ ![Conceptual model](https://github.com/Kozub420/DE-101/blob/main/Module02/Conceptual%20model_.png)
  
  - Logistic_model
 
