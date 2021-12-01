@@ -23,7 +23,7 @@
  
  - Logistic_model
 
-![Logistic_model]
+![Logistic_model](https://github.com/Kozub420/DE-101/blob/main/Module02/Logistic_model.png)
 
 - Physical model
 
