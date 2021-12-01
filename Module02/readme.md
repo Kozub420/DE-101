@@ -38,7 +38,7 @@
   Практика
   Обновленные модели данных и данные для загрузки в облачную БД Amazon RDS
 
-  - [DDL]
+  - [DDL](https://github.com/Kozub420/DE-101/blob/main/Module02/2_5_ddl_final.sql)
   - [Наполнение таблиц](https://github.com/Kozub420/DE-101/blob/main/Module02/2_5_ddl_final.sql)
   - [Сырые данные. Таблица orders](https://github.com/Kozub420/DE-101/blob/main/Module02/2_5_stg.order.sql)
   - [Сырые данные. Таблица returns](https://github.com/Kozub420/DE-101/blob/main/Module02/2_5_stg.returns.sql)
