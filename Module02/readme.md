@@ -45,3 +45,7 @@
   - [Сырые данные. Таблица people](https://github.com/Kozub420/DE-101/blob/main/Module02/2_5_stg.people.sql)
 
   ## 2.6: Как донести данные до бизнес-пользователя 
+  Практика.
+  Пример Dashboard на Goole Data Studio (с подключением к AWS RDS)
+
+  Пример Dashboard на Klipfolio  (с подключением к AWS LIGHTSAL)
