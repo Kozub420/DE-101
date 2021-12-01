@@ -47,5 +47,7 @@
   ## 2.6: Как донести данные до бизнес-пользователя 
   Практика.
   Пример Dashboard на Goole Data Studio (с подключением к AWS RDS)
+  ![GDS](https://github.com/Kozub420/DE-101/blob/main/Module02/Dashboard%20GDS.png)
 
   Пример Dashboard на Klipfolio  (с подключением к AWS LIGHTSAL)
+  ![Klipfolio](https://github.com/Kozub420/DE-101/blob/main/Module02/Dashboard%20Klipfolio.png)
