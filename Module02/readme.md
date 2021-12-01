@@ -27,7 +27,7 @@
 
 - Physical model
 
-![Physical model](https://github.com/Kozub420/DE-101/blob/main/Module02/Logistic_model.png)
+![Physical model](https://github.com/Kozub420/DE-101/blob/main/Module02/Physical%20model.JPG)
  
  ## Практика
  - [DDL - создание таблиц](https://github.com/Kozub420/DE-101/blob/main/Module02/ddl_final.sql)
