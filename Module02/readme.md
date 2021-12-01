@@ -19,15 +19,15 @@
  ## 2.4: Модели Данных
  - Conceptual model
  
- ![Conceptual model](https://github.com/Kozub420/DE-101/blob/main/Module02/Conceptual%20model.png)
+ ![Conceptual model]
  
  - Logistic_model
 
-![Logistic_model](https://github.com/Kozub420/DE-101/blob/main/Module02/Logistic_model.png)
+![Logistic_model]
 
 - Physical model
 
-![Physical model](https://github.com/Kozub420/DE-101/blob/main/Module02/Physical%20model.JPG)
+![Physical model]
  
  ## Практика
  - [DDL - создание таблиц](https://github.com/Kozub420/DE-101/blob/main/Module02/ddl_final.sql)
