@@ -8,7 +8,7 @@ Superstore Dashboard в Tableu Public - [ссылка на отчет](https://p
 ![Dashboard Tableu](https://github.com/Kozub420/DE-101/blob/main/Module03/Dashboard_tableu.PNG)
 
 ## 3.9 Знакомство с BI Tableau Сервером (обзор Tableau Server)
-Еще пока не победил! 
+❌ Еще пока не победил! ❌
 
 ## Финальный проект для модуля 3: Аналитика по данным Airbnb London
 ![Final Project](https://github.com/Kozub420/DE-101/blob/main/Module03/FinalProject.PNG)
