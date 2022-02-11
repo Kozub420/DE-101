@@ -6,3 +6,6 @@
 Superstore Dashboard в Tableu Public - [ссылка на отчет](https://public.tableau.com/views/Module03_16394012729050/Dashboard1?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link)
 
 ![Dashboard Tableu](https://github.com/Kozub420/DE-101/blob/main/Module03/Dashboard_tableu.PNG)
+
+## 3.9 Знакомство с BI Tableau Сервером (обзор Tableau Server)
+Еще пока не победил! 
