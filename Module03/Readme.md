@@ -12,3 +12,4 @@ Superstore Dashboard в Tableu Public - [ссылка на отчет](https://p
 
 ## Финальный проект для модуля 3: Аналитика по данным Airbnb London
 ![Final Project](https://github.com/Kozub420/DE-101/blob/main/Module03/FinalProject.PNG)
+Ссылка на [TableuPublic] (https://public.tableau.com/app/profile/sofia5881/viz/AirbnbAnalysis_16444992292020/Dashboard1)
